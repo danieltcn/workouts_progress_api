@@ -25,8 +25,8 @@ export class UsersEntity {
   @Column({ type: 'varchar' })
   password: string;
 
-  @Column({ type: 'varchar', nullable: true, unique: true })
-  email?: string;
+  @Column({ type: 'varchar', unique: true })
+  email: string;
 
   @Column({ type: 'varchar', nullable: true })
   firstname: string;

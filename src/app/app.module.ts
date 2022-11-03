@@ -10,7 +10,7 @@ import { WinstonLoggerProvider } from './logger.provider';
 import { UsersModule } from '../modules/users/users.module';
 import { WorkoutsModule } from '../modules/workouts/workouts.module';
 import { ExercisesModule } from '../modules/exercises/exercises.module';
-import { AuthMiddleware } from '../middleware/auth.middleware';
+import { AuthMiddleware } from '../utils/middleware/auth.middleware';
 import { UsersController } from '../modules/users/users.controller';
 import { ExercisesController } from '../modules/exercises/exercises.controller';
 import { WorkoutsController } from '../modules/workouts/workouts.controller';
