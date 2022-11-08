@@ -5,7 +5,7 @@ import {
 } from 'nest-winston';
 import { LoggerOptions } from 'winston';
 import { Inject } from '@nestjs/common';
-import appConfig from '../config/app.config';
+import appConfig from '../../config/app.config';
 import { ConfigType } from '@nestjs/config';
 
 export class WinstonLoggerProvider implements WinstonModuleOptionsFactory {
